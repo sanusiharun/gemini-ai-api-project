@@ -1,0 +1,25 @@
+{
+  "name": "gemini-ai-api-project",
+  "version": "1.0.0",
+  "description": "Belajar AI bareng Hacktiv8 - Gemini AI API Integration Project",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "chat": "node examples/chat.js",
+    "text": "node examples/text-generation.js"
+  },
+  "keywords": [
+    "gemini",
+    "ai",
+    "api",
+    "hacktiv8",
+    "learning"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@google/generative-ai": "^0.1.3",
+    "dotenv": "^16.3.1"
+  }
+}
